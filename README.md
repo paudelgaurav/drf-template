@@ -2,7 +2,7 @@
 
 #### Running locally
 - Clone project and create virtual environment `python3 -m venv <venv_name>` and activate it `source venv/bin/activate`
-- Install requirements `pip3 install -r requirements.txt `
+- Install requirements `pip3 install -r requirements/dev.txt `
 - Copy `.env.example` to `.env` and update according to requirement.
 - Run server `python manage.py runserver --settings=config.settings.local`
 
