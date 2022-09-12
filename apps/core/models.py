@@ -46,8 +46,10 @@ class SlugModel(models.Model):
 
 
 class BaseModel(TimeStampedModel):
-    pass
+    class Meta:
+        abstract = True
 
 
 class BaseSlugModel(SlugModel, BaseModel):
-    pass
+    class Meta:
+        abstract = True
