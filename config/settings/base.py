@@ -165,7 +165,6 @@ LOGOUT_URL = "rest_framework:logout"
 
 
 if DEBUG:
-
     INSTALLED_APPS += ("debug_toolbar", "drf_yasg", "django_extensions")
 
     MIDDLEWARE += ("debug_toolbar.middleware.DebugToolbarMiddleware",)
